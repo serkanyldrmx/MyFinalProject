@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EFCategoryDal: EfEntityRepositoryBase<Category, NorthwindContext>, ICategoryDal
+    public class EFOrderDal:EfEntityRepositoryBase<Order,NorthwindContext>,IOrderDal
     {
+
     }
 }
